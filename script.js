@@ -46,6 +46,7 @@ function playgame() {
 
   alert(result + " Dalsie kolo?");
   console.log(result)
+  document.getElementById("btnplg").innerHTML="Dalsia hra"
 
   switch (result) {
     case 'VYHRA':
@@ -95,13 +96,6 @@ function playgame() {
     computerChoice: computerChoice,
     result: result
   })
-
-  console.log(history)
-  const nextRoundBtn = document.createElement('button')
-  nextRoundBtn.textContent = 'Dalsie kolo'
-  document.body.appendChild(nextRoundBtn)
-  nextRoundBtn.addEventListener()
-
 
 }
 
