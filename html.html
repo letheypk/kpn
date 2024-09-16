@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+ 
+
+</head>
+<body>
+  <h1>Hra kamen papier noznice</h1>
+  <p>Po kliknuti na "Zacat hru" sa spusti hra, do okna vpis P(papier), K(kamen), N(noznice)</p>
+  <p>Nasledne odosli poziadavku, a pocitac si vybere taktiez z moznosti</p>
+  <ul>
+    <li>Kamen > Noznice</li>
+    <li>Noznice > Papier</li>
+    <li>Papier > Kamen</li>
+  </ul>
+
+  <button onclick="playgame()">Zacat hru</button>
+
+  <div>Player Score: 
+    <span id="scorePlayer">0</span>
+  </div>
+
+  <div>Computer Score: 
+    <span id="scorePc">0</span>
+  </div>
+  
+  <div>Remiza:
+    <span id="scoreRemiza">0</span>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
